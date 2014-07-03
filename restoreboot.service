@@ -1,0 +1,8 @@
+[Unit]
+Description=Restore Boot configuration
+
+[Service]
+ExecStart=/opt/justbrowsing/restoreboot
+
+[Install]
+WantedBy=multi-user.target
