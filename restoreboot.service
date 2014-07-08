@@ -2,7 +2,7 @@
 Description=Restore Boot configuration
 
 [Service]
-ExecStart=/opt/justbrowsing/restoreboot
+ExecStart=/usr/bin/restoreboot
 
 [Install]
 WantedBy=multi-user.target

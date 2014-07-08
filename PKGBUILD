@@ -20,7 +20,7 @@ package() {
   install -Dm755 restoreboot "$pkgdir/usr/bin/restoreboot"
 
   # Polkit rule
-  install -Dm644 00-timezone.rules "$pkgdir/etc/polkit-1/rules.d/00-timezone.rules"
+  install -Dm700 00-timezone.rules "$pkgdir/etc/polkit-1/rules.d/00-timezone.rules"
 
   # Unit files
   install -Dm644 autologin@.service "$pkgdir/usr/lib/systemd/system/autologin@.service"

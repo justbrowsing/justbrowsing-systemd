@@ -3,7 +3,7 @@ Description=Daemon for savejb-config
 After=network.target
 
 [Service]
-ExecStart=/usr/local/sbin/savejb-config daemon i3
+ExecStart=/usr/bin/savejb-config daemon i3
 ExecStop=/usr/bin/rm /tmp/savecfg.daemon
 Restart=always
 RestartSec=5
